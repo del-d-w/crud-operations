@@ -1,0 +1,43 @@
+.table-row {
+  display: flex;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  width: 70%;
+}
+
+.table-cell {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.name-column {
+  width: 33%;
+}
+
+.mobile-no-column {
+  flex-grow: 1;
+}
+
+.mobile-no-value {
+  flex-grow: 1;
+}
+
+.favorite-icon-container {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.favorite-icon {
+  background: transparent;
+  margin-right: 24px;
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  height: 20px;
+}
